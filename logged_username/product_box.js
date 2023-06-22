@@ -8,6 +8,7 @@ var db = firebase.firestore();
                 // Function to render each document inside the div
                 function renderDocument(doc) {
                     let data = doc.data();
+                    console.log("hello");
                     console.log(data);
                 products.innerHTML+=`
                 <div id="product_box" onclick="showPopup('${data.name}','${data.image}','${data.price}')">

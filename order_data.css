@@ -1,49 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-*{
-    font-family: Poppins;
+/* .order_data img{
+    width: 260px;
+    height: 273px;
+    padding-top: 5px;
 }
-#popup{
-    background: #fff;
-    box-shadow: 5px 5px 5px #00000015;
-    border: none;
-    border-radius: 8px;
+.order_data  div p{
+    margin: 0 0 7px 0;
+    height: 60px;
+    width: 270px;
+    word-wrap: break-word;
+    
 }
-#popup::backdrop{
-    backdrop-filter: blur(5px);
-}
-#product_box{
-    box-sizing: border-box;
+.order_data{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-#products{
-    display: flex;
-    gap: 20px;
-    padding: 10px;
-    box-sizing: border-box;
     justify-content: space-around;
+    margin-top: 50px;
 }
-#popup{
-    /* display: flex; */
+.order_data div{
+    height: 420px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-
-}        
-#popup .cancel{
-    position: absolute;
-    right: 30px;
-    top: 50px;
+    background-color: antiquewhite;
 }
-#popup img{
-    width: 300px;
-    height: 300px;
+.font{
+    font-family: sans-serif;
+    text-decoration: none;
 }
+.order_data h4{
+    margin: 10px 0;
+}
+.eatcname{
+    margin-top: 0;
+} */
 #products img{
     width: 260px;
     height: 260px;
